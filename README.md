@@ -1,66 +1,79 @@
 # Hi, I'm Vijay  👋
 
-I'm interested in AI engineering, Generative AI, and data engineering. I enjoy learning by building projects and figuring out how things work in real-world scenarios.
+### Data Engineer with 5+ Years of Experience | Exploring AI Engineering & GenAI
 
-Most of my current work is around Python, Databricks, APIs, and building applications with LLMs. I'm always trying to improve my skills and turn what I learn into something practical.
+I'm a Data Engineer with 5+ years of experience working with data pipelines, cloud platforms, and lakehouse solutions. My work has involved processing large datasets, building reliable ETL pipelines, and improving data quality.
 
-## 🛠️ Technologies I'm Working With
+Recently, I've been expanding my skills into Generative AI and Agentic AI. I enjoy learning by building projects, testing ideas, and understanding how things work beyond the theory.
+
+Here you'll find some of the data engineering and AI projects I've been working on.
+
+## 🛠️ Technologies I Work With
 
 - **Languages:** Python, SQL
-- **AI & GenAI:** LLMs, RAG, Agentic AI, and LLM evaluation
-- **APIs:** FastAPI, REST APIs
-- **Data Engineering:** PySpark, Databricks, Delta Lake
-- **Tools:** Ollama, Git, GitHub
-- **Cloud:** AWS fundamentals
+- **Data Engineering:** PySpark, Apache Spark, Azure Data Factory
+- **Lakehouse:** Databricks, Delta Lake, Microsoft Fabric, Medallion Architecture
+- **Cloud:** Azure, AWS
+- **AWS Data & AI:** S3, Glue, Athena, Redshift, Amazon Bedrock, OpenSearch
+- **GenAI:** LLMs, RAG, embeddings, vector retrieval, Agentic AI
+- **APIs & Tools:** FastAPI, REST APIs, Ollama, Git, GitHub, pytest, Terraform
 
-## 🚀 Projects I've Built
+## 🚀 Featured Projects
 
-### 1. RAG Quality Gate
-A small API project that helps evaluate how well documents are retrieved and whether an AI-generated answer is supported by the given context.
+### 1. ClaimsIQ — AWS Claims Data & RAG Platform
 
-**Built with:** Python, FastAPI, Ollama
+An AI-focused claims project that combines semantic search with metadata filtering to retrieve relevant claim records. It also explores Bedrock-powered responses and validation using business rules.
 
-[Check out the project](https://github.com/vijaybhargav1000-web/rag-quality-gate)
+**Technologies:** Python, Amazon Bedrock, OpenSearch, FastAPI, Terraform
 
-### 2. Production Incident Resolution Agent
-A project that explores how an AI-assisted tool can investigate pipeline errors, analyze logs, and suggest possible next steps.
+[View ClaimsIQ](https://github.com/vijaybhargav1000-web/claimsiq-enterprise-platform)
 
-[Check out the project](https://github.com/vijaybhargav1000-web/production-incident-resolution-agent)
+### 2. RAG Quality Gate
 
-### 3. Databricks Data Quality Governance
-A data engineering project focused on data quality and governance using the Databricks ecosystem.
+A FastAPI application that evaluates retrieval quality and checks whether an AI-generated answer is supported by the supplied context.
 
-[Check out the project](https://github.com/vijaybhargav1000-web/databricks-data-quality-governance)
+**What it includes:** Precision, recall, F1-score, faithfulness evaluation using a local Ollama model, and automated tests.
 
-### 4. ClaimsIQ Enterprise Platform
-An enterprise-oriented project exploring claims-related workflows and application architecture.
+[View RAG Quality Gate](https://github.com/vijaybhargav1000-web/rag-quality-gate)
 
-[Check out the project](https://github.com/vijaybhargav1000-web/claimsiq-enterprise-platform)
+### 3. Production Incident Resolution Agent
 
-## 🌱 What I'm Learning
+A project exploring how an AI-assisted application can analyze pipeline logs, identify possible issues, and suggest troubleshooting steps.
 
-- Building useful applications with LLMs and RAG
-- Improving AI-generated answers through evaluation
-- Working with data pipelines and data quality
-- Understanding how AI applications are designed and used in practice
+**Technologies:** Python, FastAPI, Ollama
 
-## 🤝 Thanks for Stopping By!
+[View Production Incident Resolution Agent](https://github.com/vijaybhargav1000-web/production-incident-resolution-agent)
 
-Feel free to explore my repositories. I'm always learning, building, and looking for ways to get better at what I do.
+### 4. Databricks Data Quality Governance
 
+A data engineering project focused on data quality and governance, with an emphasis on lakehouse workflows and reliable data processing.
 
+**Technologies:** Databricks, PySpark, SQL, Delta Lake
 
-<!--
-**vijaybhargav1000-web/vijaybhargav1000-web** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+[View Databricks Data Quality Governance](https://github.com/vijaybhargav1000-web/databricks-data-quality-governance)
 
-Here are some ideas to get you started:
+## 💡 My Data Engineering Background
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Over the years, I've worked with data pipelines and transformation workflows involving:
+
+- Processing **5M+ records per day** and transformation datasets of **10M+ records**.
+- Building incremental ETL/ELT pipelines.
+- Working with Bronze, Silver, and Gold data layers.
+- Improving Spark performance through partitioning, partition pruning, caching, and efficient joins.
+- Implementing data validation, monitoring, and pipeline troubleshooting.
+
+## 🌱 What I'm Exploring Now
+
+- Building practical applications with LLMs and RAG
+- Improving retrieval quality and evaluating AI-generated answers
+- Exploring Agentic AI and AI-assisted workflows
+- Connecting data engineering practices with AI applications
+
+## 🎓 Certification
+
+**Microsoft Certified: Fabric Data Engineer Associate (DP-700)**
+
+## 🤝 Thanks for Visiting!
+
+Feel free to explore my repositories and see what I've been building. I'm always learning, experimenting, and looking for practical ways to combine data engineering and AI.
+
